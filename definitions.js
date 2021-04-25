@@ -13,12 +13,14 @@ var effect_groups = {
   'arrow-loose-and-hit': 7,
   'dirt-slam': 4,
   'dragon-bite': 2,
+  'fireball': 1,
   'ooze': 5,
   'owlbear-roar': 4,
   'slam-attack': 4,
   'swimming': 6,
   'sword-clash': 3,
   'thunder-clap': 4,
+  'waterfall': 1,
   'wave-crash': 4,
 };
 for (let name in effect_groups) {
@@ -46,13 +48,13 @@ soundboards.wave_echo_cave = [
 soundboards.combat = [
   effect_groups['arrow-loose-and-hit'],
   effect_groups['dirt-slam'],
+	effect_groups['fireball'],
+	effect_groups['waterfall'],
   effect_groups['sword-clash'],
   effect_groups['dragon-bite'],
   effect_groups['thunder-clap'],
   './music/darkest-dungeon-the-cove-battle.ogg',
   './music/skyrim-ost-blood-and-steel.ogg',
-  './effects/waterfall.ogg',
-  './effects/fireball.ogg'
 ];
 soundboards.travelling = [
   './ambient/docks.ogg',
