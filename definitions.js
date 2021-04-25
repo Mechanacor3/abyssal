@@ -51,6 +51,8 @@ soundboards.combat = [
   effect_groups['thunder-clap'],
   './music/darkest-dungeon-the-cove-battle.ogg',
   './music/skyrim-ost-blood-and-steel.ogg',
+  './effects/waterfall.ogg',
+  './effects/fireball.ogg'
 ];
 soundboards.travelling = [
   './ambient/docks.ogg',
